@@ -1,0 +1,19 @@
+.controls__btn {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 800;
+  width: 70px;
+  height: 40px;
+  margin-left: 10px;
+
+  border: none;
+
+  cursor: pointer;
+  border-radius: 25px;
+  background-color: aquamarine;
+  transition: all 0.3s ease;
+}
+
+.controls__btn:hover,
+.controls__btn:focus {
+    transform: scale(1.1);
+}
